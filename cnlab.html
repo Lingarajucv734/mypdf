@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CNLAB</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    .pdf-viewer {
+      border: 2px solid #555;
+      border-radius: 10px;
+      width: 90%;
+      height: 600px;
+      margin: 20px auto;
+    }
+  </style>
+</head>
+<body>
+  <h1>CNlab</h1>
+
+  <!-- Display PDF file offline -->
+  <embed src="cnlab.pdf" class="pdf-viewer" type="application/pdf">
+
+  <!-- Optional link to open PDF in new tab -->
+  <p>
+    <a href="cnlab.pdf" target="blank">Open PDF in new tab</a>
+  </p>
+</body>
+</html>
